@@ -13,7 +13,7 @@ import javax.ws.rs.core.MediaType;
 @Consumes(MediaType.APPLICATION_JSON)
 public class SeguridadService {
 
-    // ✅ No @EJB — instancia directa porque ServicioSeguridadMock es un POJO
+    
     private IServicioSeguridadMockLocal seguridad = new ServicioSeguridadMock();
 
     @GET
