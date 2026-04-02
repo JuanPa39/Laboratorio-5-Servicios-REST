@@ -6,7 +6,7 @@ import co.edu.uniandes.csw.mueblesdelosalpes.logica.interfaces.IServicioSegurida
 import javax.ejb.Stateless;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
-
+//anotaciones
 @Path("/seguridad")
 @Stateless
 @Produces(MediaType.APPLICATION_JSON)
